@@ -21,7 +21,7 @@ jobs:
       - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: Razzakowais28
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%2364748B&color_dots=%2316161d,%230e4429,%23006d32,%2326a641,%2339d353
             dist/github-contribution-grid-snake-dark.svg?color_snake=%2394A3B8&color_dots=%2316161d,%230e4429,%23006d32,%2326a641,%2339d353
